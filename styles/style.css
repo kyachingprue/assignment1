@@ -23,7 +23,7 @@ body{
     background-image: url(../images/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 1440px;
+    max-width: auto;
     margin: 0 auto;
     height:652px;
     
@@ -79,13 +79,17 @@ body{
     text-align: center;    
     margin-bottom: 44px;
 }
+.btn-primary a{
+    text-decoration: none;
+    text-style: none;
+    color:rgb(255, 255, 255);
+}
 /* banner styles end here */
 /* web development section style starts */
 .web-development-container{
     width:80%;
     margin: 0 auto;
     height: 1250px;
-    border: 2px solid red;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin-top:74px;
@@ -94,14 +98,12 @@ body{
     width:90%;
     margin:0 auto;
     height: 1100px;
-    border: 2px solid blue;
     margin-top: 80px;
 }
 .web-development-container-details{
     width:90%;
     margin: 0 auto;
     height: 140px;
-    border: 2px solid red;
     margin-bottom: 48px;
 }
 .paragraph-title{
@@ -119,28 +121,22 @@ body{
 .frame8-container{
     width:auto;
     height:336px;
-    
     margin: 0 auto;
-    border: 2px solid red;
 }
 .frame8-content-container{
     width:90%;
     margin: 0 auto;
     margin-top:48px;
     height: 240px;
-    border: 2px solid green;
     display: flex;
-
 }
 .frame8-text-container{
     width:60%;
     height:220px;
-    border: 2px solid red;
 }
 .frame8-image-container{
     width: 30%;
     height: 220px;
-    border: 2px solid red;
     margin-left: 70px;
 }
 .frame8-text-title{
@@ -164,7 +160,6 @@ body{
     margin: 0 auto;
     margin-top: 48px;
     height: 240px;
-    border: 2px solid green;
     display: flex;
 }
 .frame8-text-container-secondary{
@@ -194,8 +189,6 @@ body{
     width: 80%;
     margin: 0 auto;
     height: 614px;
-    border: 2px solid red;
-    
 }
 .inspiration-text-container{
     margin-bottom: 48px;
@@ -209,8 +202,6 @@ body{
     width: 80%;
     margin: 0 auto;
     height: 614px;
-    border: 2px solid red;
-    
 }
 .current-text{
     color: rgb(13, 19, 33);
@@ -225,6 +216,7 @@ body{
     display:flex;
     gap: 20px;
     justify-content:space-evenly;
+    margin-top: 70px;
 }
 .card1{
     border-radius: 16px;
@@ -326,11 +318,12 @@ input[type="text"]
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
 }
-input[type="button"]
+.button
 {
     padding: 17px 20px 17px 20px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
+    cursor: pointer;
 }
 /* email box style end */
 /* footer starts */
